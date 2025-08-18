@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 int main() {
-    char buffer[11];
-    memset(buffer, '4', 10);
-    buffer[10] = '\0';          
+    int  src[]={12, 56, 89};
+    int dest[50];
+    memcpy(dest,src,sizeof(src));
+    printf("%d",dest[1]);
 
-    printf("%s\n", buffer);
-    return 0;
 }

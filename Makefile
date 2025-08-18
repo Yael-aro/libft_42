@@ -1,4 +1,4 @@
-SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isprint.c ft_strlen.c
+SRC = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isprint.c ft_strlen.c ft_bzero.c ft_memcpy.c ft_memmove.c
 CC = gcc -Wall -Wextra -Werror
 LIB = libft.a
 

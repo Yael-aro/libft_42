@@ -5,7 +5,7 @@ void bzero(void *s, size_t n)
      char *ptr = (char *)s;
     while (i < n)
     {
-        ptr[i] = '\0';
+        ptr[i] = 'n';
         i++;
     }  
 }

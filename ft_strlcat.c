@@ -1,5 +1,5 @@
 #include "libft.h"
-size_t strlcat(char *dst, const char *src, size_t size)
+size_t ft_strlcat(char *dst, const char *src, size_t size)
 {
     size_t dst_len = 0;
     size_t src_len = 0;

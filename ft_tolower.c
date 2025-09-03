@@ -1,5 +1,5 @@
 #include "libft.h"
-int tolower(int c)
+int ft_tolower(int c)
 {
     unsigned char i = (unsigned char ) c;
     if(i >= 97 && i <= 122)

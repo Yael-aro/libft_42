@@ -1,6 +1,13 @@
 #include "libft.h"
 #include <stdio.h>
-int main() {
-    printf("%d", atoi("----76576576"));
+int main()
+{
+    char str[] = "hello";
+    char *copie = ft_strdup(str);
+    if(copie == NULL)
+    {
+        printf("allocation failed \n");
+    }
+    else
+    printf("allocation has ben allocated in COPIE %s", copie);
 }
-

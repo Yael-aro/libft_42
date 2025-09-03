@@ -1,5 +1,5 @@
 #include "libft.h"
-int toupper(int c)
+int ft_toupper(int c)
 {
     unsigned char i = (unsigned char  ) c;
     if( i >= 65 && i <= 90)
